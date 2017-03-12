@@ -6,10 +6,12 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { PunComponent } from './pun/pun.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PunComponent
   ],
   imports: [
     BrowserModule,

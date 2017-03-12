@@ -23,3 +23,7 @@ body {
 .white-text {
     color: #FFF!important;
 }
+
+.body-margin {
+    margin: 50px;
+}
