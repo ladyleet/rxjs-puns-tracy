@@ -1,3 +1,18 @@
-<p>
-  pun works!
-</p>
+<div>
+  <h3 class="primary-color">Look for Puns</h3>
+  
+  <md-input-container>
+    <input #keywords mdInput type="text"
+      autofocus="true"
+      placeholder="Enter keyword" (input)="keywordsInputChange$.next(keywords.value)"/>
+  </md-input-container>
+</div>
+
+<div>
+  <h3 class="primary-color">Suggested Keywords</h3>
+  {{suggestedKeywords}}
+</div>
+
+<div>
+  <h3 class="primary-color">Suggested Puns</h3>
+</div>
